@@ -49,9 +49,10 @@ view = gr.Interface(
         gr.Textbox(label="Landing page URL including http:// or https://"),
         gr.Dropdown(["GPT-4o-mini", "GPT-4o"], label="Select model")],
     outputs=[gr.Markdown(label="Brochure:")],
-    flagging_mode="never"
+    flagging_mode="never",
+    js=force_dark_mode
 )
-view.launch(share=True)
+view.launch()
 ```
 
 ![Result](https://github.com/MihranD/Streaming-on-GradioUI/blob/main/images/result.png)
