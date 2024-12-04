@@ -1,8 +1,8 @@
 # Company Sales Brochure Generator with Gradio UI
 ***
-We will build User Interfaces using the simple Gradio framework.
+We created user interfaces using the simple Gradio framework.
 
-Please note: your Gradio screens may appear in 'dark mode' or 'light mode' depending on your computer settings.
+Please note: your Gradio screens may appear in `dark mode` or `light mode` depending on your computer settings.
 
 ![Brochure](https://github.com/MihranD/Streaming-on-GradioUI/blob/main/images/brochure.png)
 
@@ -33,13 +33,13 @@ Generating professional, company-specific sales brochures involves time-consumin
 1. Using GPT-4o-mini or GPT-4o to analyze company websites and extract only the most relevant links and content.
 2. Automating the design and creation of sales brochures based on the extracted information.
 3. Enhancing user experience with real-time streaming output for smoother content generation.
-4. Displaying the streaming results interactively using Gradio UI for a more intuitive and engaging experience.
+4. Displaying the streaming results interactively using `Gradio UI` for a more intuitive and engaging experience.
 
 ### Model Output Example
 
 `system_prompt = "You are an assistant that analyzes the contents of a company website landing page and creates a short brochure about the company for prospective customers, investors and recruits. Respond in markdown."`
 
-`
+```
 view = gr.Interface(
     fn=stream_brochure,
     inputs=[
@@ -50,13 +50,13 @@ view = gr.Interface(
     flagging_mode="never"
 )
 view.launch(share=True)
-`
+```
 
 ![Result](https://github.com/MihranD/Streaming-on-GradioUI/blob/main/images/result.png)
 
 ## Conclusion
 
-Using Gradio UI, we successfully enhanced our content generation project by providing an interactive and user-friendly way to visualize results, making the process more accessible and engaging.
+Using `Gradio UI`, we successfully enhanced our content generation project by providing an interactive and user-friendly way to visualize results, making the process more accessible and engaging.
 
 ## How to run the app
 
