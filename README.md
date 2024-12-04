@@ -37,7 +37,9 @@ Generating professional, company-specific sales brochures involves time-consumin
 
 ### Model Output Example
 
-`system_prompt = "You are an assistant that analyzes the contents of a company website landing page and creates a short brochure about the company for prospective customers, investors and recruits. Respond in markdown."`
+```
+system_prompt = "You are an assistant that analyzes the contents of a company website landing page and creates a short brochure about the company for prospective customers, investors and recruits. Respond in markdown."
+```
 
 ```
 view = gr.Interface(
